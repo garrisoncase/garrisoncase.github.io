@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Open-Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background: #fdfdfd;
+  background: var(--BGColor);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
@@ -29,8 +29,29 @@ li {
   margin-right: 1rem;
 }
 h1 {
-  color: #e74c3c;
+  color: var(--Accent-4);
   margin-bottom: 0.5rem;
+}
+
+
+/*  
+ *  Color Palette:
+ *  Off-White [BGColor] -    #cccccc
+ *  Pale Yellow [Accent 1] - #ffdd91
+ *  Peach [Accent 2] -       #d6b2a5
+ *  Pinkish [Accent 3] -     #b093a3
+ *  Purple [Accent 4] -      #787492
+ *  Navy [Accent 5] -        #282e54
+ *
+ */
+:root {
+  --BGColor:#cccccc;
+  --Accent-1:#ffdd91;
+  --Accent-2:#d6b2a5;
+  --Accent-3:#b093a3;
+  --Accent-4:#787492;
+  --Accent-5:#282e54;
+
 }
 
 .container {
@@ -40,7 +61,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 1rem 0;
+    padding: 1rem 0;c
   }
   .card {
     display: flex;
@@ -48,7 +69,7 @@ h1 {
     flex-direction: column;
     width: 15rem auto;
     height: 15rem;
-    background: #fff;
+    background: var(--Accent-2);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
     margin: auto;
@@ -60,7 +81,7 @@ h1 {
     object-fit: cover;
   }
   .card--title {
-    color: #222;
+    color: var(--Accent-5);
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.1rem;
@@ -68,8 +89,9 @@ h1 {
   }
   .card--link {
     text-decoration: none;
-    background: #db4938;
-    color: #fff;
+    background: var(--Accent-3);
+    color: var(--Accent-1);
     padding: 0.3rem 1rem;
     border-radius: 20px;
   }
+
