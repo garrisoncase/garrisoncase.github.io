@@ -3,17 +3,41 @@
     "short_name": "Aron Alvison",
     "start_url": "dndtracker-aron.html",
     "display": "standalone",
-    "background_color": "d6b2a5",
+    "background_color": "#d6b2a5",
     "theme_color": "#787492",
     "orientation": "portrait-primary",
     "icons": [
+      {
+        "src": "/images/icons/pwa-icon-16x16.png",
+        "type": "image/png", "sizes": "16x16"
+      },
+      {
+        "src": "/images/icons/pwa-icon-32x32.png",
+        "type": "image/png", "sizes": "32x32"
+      },
+      {
+        "src": "/images/icons/pwa-icon-48x48.png",
+        "type": "image/png", "sizes": "48x48"
+      },
+      {
+        "src": "/images/icons/pwa-icon-64x64.png",
+        "type": "image/png", "sizes": "64x64"
+      },
+      {
+        "src": "/images/icons/pwa-icon-72x72.png",
+        "type": "image/png","sizes": "72x72"
+      },
       {
         "src": "/images/icons/pwa-icon-120x120.png",
         "type": "image/png", "sizes": "120x120"
       },
       {
-        "src": "/images/icons/pwa-icon-256x256.png",
-        "type": "image/png", "sizes": "256x256"
+        "src": "/images/icons/pwa-icon-128x128.png",
+        "type": "image/png", "sizes": "128x128"
+      },
+      {
+        "src": "/images/icons/pwa-icon-152x152.png",
+        "type": "image/png","sizes": "152x152"
       },
       {
         "src": "/images/icons/pwa-icon-167x167.png",
@@ -28,12 +52,8 @@
         "type": "image/png", "sizes": "256x256"
       },
       {
-        "src": "/images/icons/pwa-icon-1024x1024.png",
-        "type": "image/png", "sizes": "1024x1024"
-      },
-      {
-        "src": "/images/icons/pwa-icon-384x384.png",
-        "type": "image/png", "sizes": "384x384"
+        "src": "/images/icons/pwa-icon-512x512.png",
+        "type": "image/png", "sizes": "512x512"
       },
       {
         "src": "/images/icons/pwa-icon-1024x1024.png",
